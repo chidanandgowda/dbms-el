@@ -4,6 +4,22 @@
 > Built with **Next.js (App Router, TypeScript)**, **Tailwind CSS**, and **Supabase (PostgreSQL + Supabase Storage)**.
 
 ---
+## 🚀 Running the Project Locally
+
+### 1. Install Dependencies
+```bash
+pnpm install
+```
+
+### 2. Start the Development Server
+```bash
+pnpm run dev
+```
+Open **[http://localhost:3000](http://localhost:3000)** in your browser.
+
+*(Note: The application has a built-in PostgreSQL engine simulation that runs out-of-the-box with all sample data and triggers loaded. No external setup is required to run the demo!)*
+
+---
 
 ## 💡 What is this Website? (The Simple Explanation)
 
@@ -118,23 +134,6 @@ Follow this exact walkthrough when demonstrating the project to professors, eval
 | **Crypto** | `pgcrypto` + Web Crypto API | SHA-256 deduplication and hash-chain ledger |
 | **Similarity** | `pg_trgm` | Trigram fuzzy title matching for self-plagiarism alerts |
 | **Icons** | Lucide React | Clean, modern iconography |
-
----
-
-## 🚀 Running the Project Locally
-
-### 1. Install Dependencies
-```bash
-pnpm install
-```
-
-### 2. Start the Development Server
-```bash
-pnpm run dev
-```
-Open **[http://localhost:3000](http://localhost:3000)** in your browser.
-
-*(Note: The application has a built-in PostgreSQL engine simulation that runs out-of-the-box with all sample data and triggers loaded. No external setup is required to run the demo!)*
 
 ---
 
